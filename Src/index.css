@@ -42,4 +42,24 @@ button{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: solid;
+}
+
+img{
+    width: 70px;
+}
+
+button:hover{
+    background-color: wheat;
 }
