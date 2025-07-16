@@ -4,9 +4,42 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.greetings{
+.container{
     width: 100%;
     height: 600px;
     text-align: center;
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form{
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 2px 3px 20px 3px black;
+    margin: 0 auto;
+    display: flex;
+}
+
+input{
+    width: 80%;
+    height: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+button{
+    width: 20%;
+    height: 60px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
 }
