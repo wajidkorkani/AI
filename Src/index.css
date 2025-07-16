@@ -56,8 +56,12 @@ button{
     display: solid;
 }
 
-img{
+.send{
     width: 70px;
+}
+
+.loading{
+    width: 60px;
 }
 
 button:hover{
