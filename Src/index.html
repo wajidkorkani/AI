@@ -11,11 +11,12 @@
     <div class="container">
         <div class="greetings">
             <h1>Hi! How can I help you today?</h1>
+            <p id="response"></p>
         </div>
     </div>
     <div class="form">
         <input id="prompt" type="text" placeholder="Ask anything!">
-        <button type="submit" onclick="clickHandler()">
+        <button type="submit" onclick="callGoogleAI()">
             <img src="send.svg" alt="Submit" class="send">
             <img src="loading.gif" alt="loading" class="loading">
         </button>
