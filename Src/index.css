@@ -37,7 +37,7 @@ input{
 
 button{
     width: 20%;
-    height: 60px;
+    height: 62px;
     border: none;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -47,9 +47,8 @@ button{
     align-items: center;
 }
 
-
 .hide{
-    display: none;
+    display: none !important;
 }
 
 .show{
@@ -65,5 +64,5 @@ button{
 }
 
 button:hover{
-    background-color: wheat;
+    background-color: lightgreen;
 }
