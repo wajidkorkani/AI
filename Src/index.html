@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -14,9 +15,9 @@
     </div>
     <form action="" method="get">
         <input type="text" placeholder="Ask anything!">
-        <button type="submit">
-            <img src="send.svg" alt="Submit" class="send show">
-            <img src="loading.gif" alt="loading" class="loading hide">
+        <button type="submit" onclick="clickHandler()">
+            <img src="send.svg" alt="Submit" class="send">
+            <img src="loading.gif" alt="loading" class="loading">
         </button>
     </form>
 </body>
