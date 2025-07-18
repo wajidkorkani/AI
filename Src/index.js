@@ -1,7 +1,7 @@
 // WARNING: Do NOT expose your API key directly in production client-side code.
 // For demonstration purposes only. In a real application, use a backend server
 // to interact with the API securely.
-const API_KEY = "AIzaSyBELrrmEHj0_12cFqIL04zK6ux5kSeKOLg";
+const API_KEY = "";
 
 const sendIcon = document.querySelector(".send");
 const loadingIcon = document.querySelector(".loading");
@@ -37,12 +37,12 @@ let model; // Declare model outside to be accessible
 // This block ensures the GoogleGenerativeAI library is loaded before we try to use it
 document.addEventListener('DOMContentLoaded', async () => {
     // // Check if the API key is set
-    // if (API_KEY == "AIzaSyDsq-zKDF_C4W3uKzbn-5NlkYVAOuk9qdU") {
-    //     responseBox.textContent = "⚠️ Please replace 'YOUR_API_KEY' in script.js with your actual API key.";
-    //     setLoading(false); // Ensure loading is off
-    //     submitButton.disabled = true; // Disable button
-    //     return; // Stop further execution
-    // }
+    if (API_KEY === "your api key") {
+        responseBox.textContent = "⚠️ Please replace 'YOUR_API_KEY' in script.js with your actual API key.";
+        setLoading(false); // Ensure loading is off
+        submitButton.disabled = true; // Disable button
+        return; // Stop further execution
+    }
 
     try {
         // Access GoogleGenerativeAI from the global window object (loaded via CDN)
